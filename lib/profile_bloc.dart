@@ -3,12 +3,12 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-// События
+
 abstract class ProfileEvent {}
 
 class FetchProfileData extends ProfileEvent {}
 
-// Состояния
+
 abstract class ProfileState {}
 
 class ProfileInitial extends ProfileState {}
